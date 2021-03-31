@@ -1,0 +1,103 @@
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to right,red,cyan,yellow,pink,blue,indigo,violet,green); 
+	font-size: 30px;
+	font-weight: bold;
+	font-family: italic;
+	margin-left: 10px;
+}
+.container
+{
+	background-color: purple;
+	border: 5px solid black;
+	border-radius: 109px;
+	margin-top: 90px;
+	padding: 30px 40px;
+	height: 700px;
+	width: 700px;
+	margin-right: 0px;
+}
+h1
+{
+	font-size: 70px;
+	font-weight:bold;
+	font-style: italic;
+	text-align: center;	
+}
+.form
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 4px;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.form input[type ="number"]
+{
+	padding: 3px 6px;
+	border-radius: 5px;
+	background-color: #dcdcdc;
+}
+.password_header input
+{
+	width: 94%;
+	height: 100%;
+	padding: 16px;
+	background-color: magenta;
+	border-radius: 5px;
+}
+
+.password_header button
+{
+	position: absolute;
+	right: 594px;
+	bottom: 620px;
+	border-radius: 4px;
+	padding: 5px 5px;
+	cursor: pointer;
+}
+.password_header button:hover
+{
+background-color: #ff1493;
+}
+#submit
+{
+	width: 100%;
+	padding: 12px;
+	background-color:magenta ;
+	color: white;
+	border-radius: 10px;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-top: 20PX;
+}
+#submit:hover
+{
+	color: black;
+	background-color: 	#dc143c;
+}
+#password-lowercase
+{
+	width: 25px;
+	height: 25px;
+}
+#password-uppercase
+{
+	width: 25px;
+	height: 25px;
+}
+#password-number
+{
+	width: 25px;
+	height: 25px;
+}
+#password-character
+{
+	width: 25px;
+	height: 25px;
+}
